@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## 3.3.4
 
 - Add `isLoading` to the file message. Thanks @felixgabler for the PR!
@@ -113,6 +114,8 @@ This release marks a major chat architecture overhaul based on a community feedb
 
 - Update to Flutter 2.2
 
+=======
+>>>>>>> feature/audio_message_types
 ## 2.1.2
 
 - Add equatable to every type
