@@ -47,8 +47,10 @@ abstract class Message extends Equatable {
         return ImageMessage.fromJson(json);
       case 'text':
         return TextMessage.fromJson(json);
+      case 'audio':
+        return AudioMessage.fromJson(json);
       default:
-        return UnsupportedMessage.fromJson(json);
+        throw ArgumentError('Unexpected value for message type');
     }
   }
 
