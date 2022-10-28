@@ -5,12 +5,13 @@ import 'messages/custom_message.dart';
 import 'messages/file_message.dart';
 import 'messages/image_message.dart';
 import 'messages/text_message.dart';
+import 'messages/audio_message.dart';
 import 'messages/unsupported_message.dart';
 import 'preview_data.dart' show PreviewData;
 import 'user.dart' show User;
 
 /// All possible message types.
-enum MessageType { custom, file, image, text, unsupported }
+enum MessageType { custom, file, image, text, audio, unsupported }
 
 /// All possible statuses message can have.
 enum Status { delivered, error, seen, sending, sent }
